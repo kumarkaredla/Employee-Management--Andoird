@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.s528761.slicefood.Schedule">
+
+    <ImageView
+        android:id="@+id/scImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057"
+        app:srcCompat="@drawable/slicefood" />
+
+    <GridLayout
+        android:layout_width="201dp"
+        android:layout_height="96dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:columnCount="4"
+        android:rowCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.537">
+
+        <TextView
+            android:id="@+id/nameEmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:text="Name"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="2dp"/>
+        <TextView
+            android:id="@+id/dayEmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:text="Day"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="2dp"/>
+        <TextView
+            android:id="@+id/hoursEmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_row="0"
+            android:text="Hours"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="2dp"/>
+        <TextView
+            android:id="@+id/name1Emp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:text="John"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="2dp"/>
+        <TextView
+            android:id="@+id/monEmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:text="Monday"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="2dp"/>
+
+        <TextView
+            android:id="@+id/t1Emp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="1"
+            android:text="10Am-2Pm"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="2dp"/>
+
+        <TextView
+            android:id="@+id/h1Emp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_row="1"
+            android:text="4"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="2dp"/>
+
+        <TextView
+            android:id="@+id/name2Emp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:text="Smith"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="2dp"/>
+
+        <TextView
+            android:id="@+id/TueEmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:text="Tuesday"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="2dp"/>
+
+        <TextView
+            android:id="@+id/t2Emp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="2"
+            android:text="1Pm-4Pm"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="2dp"/>
+
+        <TextView
+            android:id="@+id/h2Emp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_row="2"
+            android:text="3"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="2dp"/>
+
+        <TextView
+            android:id="@+id/name3Emp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:text="Andrea"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="2dp"/>
+
+        <TextView
+            android:id="@+id/wedEmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:text="Wednesday"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="2dp"/>
+
+        <TextView
+            android:id="@+id/t3Emp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="3"
+            android:text="3pm-8Pm"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="2dp"/>
+
+        <TextView
+            android:id="@+id/h3Emp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_row="3"
+            android:text="5"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="2dp"/>
+        <TextView
+            android:id="@+id/shiftEmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="2dp"
+            android:text="Shift" />
+
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/mainBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="menuBT"
+        android:text="Main Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.76" />
+
+</android.support.constraint.ConstraintLayout>
